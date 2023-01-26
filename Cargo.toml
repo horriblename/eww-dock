@@ -1,0 +1,14 @@
+[package]
+name = "eww-dock"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+simple_logger = "4.0.0"
+serde ={ version = "1.0.147", features = ["derive"] }
+serde_json =  "1.0.91"
+xdg = "2.4.1"
+
+freedesktop-icons = "0.2.2"
+freedesktop-desktop-entry = { git = "https://github.com/pop-os/freedesktop-desktop-entry", version = "0.5.0" }
